@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b,c,d;
+    printf("Enter positive number :"); scanf("%d",&a);scanf("%d",&b);
+    c=a-b;
+    if (c>0){
+        printf("|a-b|= %d",c);
+    }
+    else if(d<0){
+        printf("|b-a|= %d",d);
+    }
+    return 0;
+}

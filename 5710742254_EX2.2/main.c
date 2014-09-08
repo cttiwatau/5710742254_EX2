@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int A;
+    printf("Enter integer number :");
+    scanf("%d",&A);
+    if (((A%2)&&(A%3))==0)
+        printf("a is divisible.\n");
+    else
+        printf("a is not divisible.\n");
+    return 0;
+}

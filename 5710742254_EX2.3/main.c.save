@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int A;
+    printf("Enter integer number :");
+    scanf("%d",&A);
+    if ((40<A)&&(A)==0)
+        printf("a is even.\n");
+    return 0;
+}

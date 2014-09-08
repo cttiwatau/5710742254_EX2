@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+    printf("Enter base 10 number :");
+    scanf("%d",&a);
+    printf("Select output base [8 or 16]:");
+    scanf("%d",&b);
+    if (b==8)
+        printf("Octal number is %o\n",a);
+    else if(b==16)
+        printf("Hexadecimal number : %x\n",a);
+    return 0;
+}
